@@ -19,6 +19,11 @@ By leveraging the OGS API, this project fetches your game history, processes it 
   * **Anvil Uplink Integration:** A ready-to-use Anvil Uplink server module allows you to expose the analysis functions as callable methods for a web application, providing a user-friendly way to interact with your data without direct code interaction.
   * **Docker Support:** The project includes a `Dockerfile` and `docker-compose.yml` for easy deployment and containerization, ensuring a consistent environment.
 
+## Live Demo
+
+![OGS Analysis Screenshot](project_screenshot1.png)
+![OGS Analysis Screenshot](project_screenshot2.png)
+
 ## Technologies Used
 
   * **Python:** The core language for data fetching, processing, and analysis.
