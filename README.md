@@ -1,8 +1,8 @@
-# OGS Analysis
+# Online-Go (OGS) Analysis
 
 ## Uncover Your Go Game Insights
 
-Welcome to the `ogs-analysis` repository\! This project provides a robust Python-based solution for analyzing your game data from the **Online Go Server (OGS)**. Whether you're a seasoned Go player looking to pinpoint areas for improvement or a data enthusiast interested in applying data analysis and visualization techniques to real-world data, this tool offers valuable insights into your playing habits and performance.
+Welcome to the `online-go-analysis` repository\! This project provides a robust Python-based solution for analyzing your game data from the **Online Go Server (OGS)**. Whether you're a seasoned Go player looking to pinpoint areas for improvement or a data enthusiast interested in applying data analysis and visualization techniques to real-world data, this tool offers valuable insights into your playing habits and performance.
 
 By leveraging the OGS API, this project fetches your game history, processes it with `pandas`, and generates insightful visualizations using `plotly`. It also integrates with **Anvil Uplink** to provide a seamless web-based interface for interacting with your data.
 
