@@ -23,6 +23,7 @@ By leveraging the OGS API, this project fetches your game history, processes it 
 
 ![OGS Analysis Screenshot](project_screenshot1.png)
 ![OGS Analysis Screenshot](project_screenshot2.png)
+![OGS Analysis Screenshot](project_screenshot3.png)
 
 ## Technologies Used
 
