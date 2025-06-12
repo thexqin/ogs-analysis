@@ -187,8 +187,8 @@ Understanding the project's layout will help you navigate and contribute effecti
 ```
 .
 ├── frontend/
-│   ├── Form1.py            # Main form/page for the Anvil web app, handles UI and calls backend functions.
-│   ├── Form2.py            # (Optional) Another example form/page for different sections of the web app.
+│   ├── Form1.py            # Main page for the Anvil web app, handles UI and calls backend functions.
+│   ├── Form2.py            # Database page for user information.
 │   └── ...                 # Other Anvil frontend files (forms, modules, assets) as part of your web app.
 ├── backend/
 │   ├── Dockerfile          # Instructions for building the Docker image for the Python backend.
