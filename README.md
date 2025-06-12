@@ -126,54 +126,36 @@ from anvil import *
 class Form1(Form1Template):
   def __init__(self, **properties):
     self.init_components(**properties)
-    # Set default Plotly theme for consistency
     Plot.templates.default = 'plotly_dark'
 
-    # Automatically load and display plots when the app opens
-    self.load_id()       # Loads user ID and initial data
-    self.plot_id()       # Generates general user plots (e.g., daily play, board size)
-    self.plot_nemesis()  # Generates opponent and time-based plots
+    # Showcase the plots when opening the app
+    self.load_id()
+    self.plot_id()
+    self.plot_nemesis()
 
   def sync_id_name(self):
-    # This function would typically retrieve the user's OGS ID and name
-    # from input fields or user sessions in the Anvil app.
-    # (See full sample code for implementation details.)
-    pass
+    # ... (see sample code for implementation)
 
   def fetch_id(self):
-    # This function would call an Anvil server function to fetch
-    # and store new game data for a given OGS user ID.
-    # (See full sample code for implementation details.)
-    pass
+    # ... (see sample code for implementation)
 
   def load_id(self):
-    # This function would load existing user data from the Anvil Data Table
-    # or initiate a fetch if data is not present/outdated.
-    # (See full sample code for implementation details.)
-    pass
+    # ... (see sample code for implementation)
 
   def plot_id(self):
     user_id, user_name = self.sync_id_name()
     if user_id:
-      self.label_9.text = 'loading...' # Display loading message
-      # Call the server-side function to get plot data
+      self.label_9.text = 'loading...'
       fig1, fig2, fig3 = anvil.server.call('get_plot', user_id)
-      # Update Anvil plot components with the generated Plotly figures
-      # (Example: self.plot_component1.figure = fig1)
-      # ... (update other plot components as needed)
-      self.label_9.text = '' # Clear loading message
-      
+      # ... (update plot components)
+
   def plot_nemesis(self):
     user_id, user_name = self.sync_id_name()
     if user_id:
-      self.label_9.text = 'loading...' # Display loading message
-      # Call server-side functions for nemesis and time-based plots
+      self.label_9.text = 'loading...'
       fig4, fig5 = anvil.server.call('get_plot_nemesis', user_id)
       fig6 = anvil.server.call('get_plot_time', user_id)
-      # Update Anvil plot components
-      # (Example: self.plot_component4.figure = fig4)
-      # ... (update other plot components as needed)
-      self.label_9.text = '' # Clear loading message
+      # ... (update plot components)
 ```
 
 ### Docker Deployment 🚢
