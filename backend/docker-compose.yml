@@ -1,0 +1,9 @@
+services:
+  ogs-uplink:
+    restart: always
+    container_name: ogs-uplink
+    image: ogs-uplink
+    build:
+      context: .
+    env_file:
+      - .env
