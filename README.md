@@ -230,7 +230,3 @@ Contributions are highly valued and welcome\! If you have suggestions for improv
 ## License 📄
 
 This project is open-source and available under the [MIT License](https://www.google.com/search?q=https://github.com/thexqin/ogs-analysis/blob/main/LICENSE). This means you are free to use, modify, and distribute the code for both commercial and non-commercial purposes, provided you include the original copyright and license notice.
-
------
-
-How does this more detailed version look to you? Is there anything else you'd like to expand on or clarify?
