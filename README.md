@@ -153,7 +153,7 @@ You can containerize and run the Anvil Uplink server using Docker:
     ├── Form1.py
     ├── Form2.py
     └── ...
-└── backend/
+├── backend/
     ├── Dockerfile
     ├── app.py
     ├── docker-compose.yml
